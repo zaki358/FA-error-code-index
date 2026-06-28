@@ -1,0 +1,33 @@
+# Python 仮想環境
+.venv/
+
+# Python キャッシュ
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# PyInstaller 成果物（ビルド生成物）
+build/
+dist/
+
+# フロントエンド依存パッケージ
+frontend/node_modules/
+
+# フロントエンドビルド出力（npm run build で生成）
+backend/static/
+
+# アプリ設定（ユーザーごとに異なるため）
+backend/config.json
+config.json
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
